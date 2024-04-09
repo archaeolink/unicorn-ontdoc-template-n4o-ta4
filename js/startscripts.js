@@ -68,7 +68,7 @@ var baseurl=""
   } );
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "500px";
+  document.getElementById("mySidenav").style.width = "600px";
 }
 
 function closeNav() {
