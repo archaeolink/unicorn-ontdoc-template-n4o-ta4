@@ -4,9 +4,7 @@
       if (window.location.href.includes("index.html")) {
         document.write("<title>{{toptitle}} | {{datasettitle}}</title>");
       } else {
-        document.write(
-          "<title>Index Page for {{datasettitle}} on archaeology.link</title>"
-        );
+        document.write("<title>Index Page for {{datasettitle}}</title>");
       }
     </script>
     <link
@@ -89,7 +87,7 @@
           );
         } else {
           document.write(
-            '<h1 id="title">Index Page for {{datasettitle}} @ NFDI4Objects</h1>'
+            '<h1 id="title">Index Page for {{datasettitle}} (NFDI4Objects)</h1>'
           );
         }
         if (window.location.href.includes("index.html")) {
